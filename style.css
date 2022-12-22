@@ -143,6 +143,7 @@ footer{
     grid-auto-flow: column;
     justify-content: space-around;
     padding: 1em;
+    height:300px;
 }
 
 button{
@@ -168,6 +169,9 @@ button:hover{
     text-align: center;
     vertical-align: middle;
     align-items:center;
+}
+#ingressos img{
+    transition-delay: 500ms !important;
 }
 
 #botao{
