@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 100%;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    padding: 1%;
+    height: auto;
+    background-color: #F3C61F;
+}
+
+header img{
+    width:30%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+h1{
+    color: #F3C61F;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    font-size: 42px;
+    margin: 0;
+}
+
+h3{
+    color: #F3C61F;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    font-size: 28px;
+    
+}
+
+p{
+    font-family: 'Lato';
+    color: white;
+    font-size: 28px;
+    width: 70%;
+    margin: 0;
+    padding-top: 2%;
+}
+
+section{
+    color: #F3C61F;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+section p{
+    color: #514988;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+section h1{
+    color: #514988;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    padding-top: 2%;
+}
+
+#conteudo{
+    background-color: #514988;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: middle;
+    padding-top: 2%;
+}
+
+#video{
+    text-align: center;
+}
+
+#video img{
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+video{
+    width: 900px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#video h3{
+    color: #E33881;
+    ;
+}
+
+#direita{
+    text-align: center;
+    align-items:center;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+button{
+    border-radius: 10px;
+    padding: 1em;
+    width: 10em;
+    background-color: #514988;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+button:hover{
+    background-color: #393268;
+    cursor: pointer;
+    color: #F3C61F;
+}
+
+#ingressos{
+    text-align: center;
+    vertical-align: middle;
+    align-items:center;
+}
+
+#botao{
+    display: grid;
+    grid-auto-flow: column;
+    vertical-align: middle;
+    align-items:center;
+}
+
+#countdown{
+    height: 4em;
+}
