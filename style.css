@@ -170,8 +170,13 @@ button:hover{
     vertical-align: middle;
     align-items:center;
 }
+
 #ingressos img{
     transition-delay: 500ms !important;
+}
+
+.ingresso{
+    border-radius: 12px;
 }
 
 #botao{
