@@ -3,13 +3,13 @@ const hora = document.getElementById('hora')
 const minuto = document.getElementById('minuto')
 const segundo = document.getElementById('segundo')
 
-const copa2026 = "1 dec 2023"
+const ccxp2023 = "1 dec 2023"
 
 function countdown(){
-    const datacopa = new Date(copa2026)
+    const dataccxp = new Date(ccxp2023)
     const hoje = new Date()
 
-    const segundostotal = (datacopa - hoje)/1000;
+    const segundostotal = (dataccxp - hoje)/1000;
     const finalDias = Math.floor(segundostotal / 60 / 60 / 24);
     const finalHoras = Math.floor(segundostotal / 60 / 60) %24;
     const finalMinutos = Math.floor(segundostotal / 60) %60;
