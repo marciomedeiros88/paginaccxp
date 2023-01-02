@@ -1,4 +1,5 @@
 
+const ingressos = [];
 
 function cresceBotaoQuinta(){
     let ingQuinta = document.getElementById('quinta').style.width = "145px";
@@ -31,4 +32,15 @@ function cresceBotaoDomingo(){
 
 function decresceBotaoDomingo(){
     let ingDomingo = document.getElementById('domingo').style.width = "auto";
+}
+
+function selecionarIngresso(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle("card-selected");
+    if(ingressos.includes(selector)) ingressos.pop(selector);
+    else ingressos.push(selector);
+}
+
+function mostrarIngressos(){
+    if(ingressos.length > 0) alert("Ingressos Selecionados:" + ingressos);
 }

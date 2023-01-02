@@ -186,5 +186,7 @@ button:hover{
 }
 
 .card-selected{
-    
+    width:170px;
+    border: 3px solid #393268;
+    border-radius: 10px;
 }
